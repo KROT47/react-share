@@ -1,5 +1,5 @@
 {
-  "name": "@kashuab/react-share",
+  "name": "@metamorph/react-share",
   "version": "4.3.0",
   "description": "A forked version of react-share, a library of social media share buttons and share counts for React built by Klaus Nygård. This package is temporary, as I am awaiting a pull request to be merged.",
   "main": "./lib/index.js",
@@ -10,10 +10,7 @@
     "node": ">=6.9.0",
     "npm": ">=5.0.0"
   },
-  "files": [
-    "lib/**/*",
-    "es/**/*"
-  ],
+  "files": ["lib/**/*", "es/**/*"],
   "scripts": {
     "build": "npm run lint && npm run build:commonjs && npm run build:es",
     "build:commonjs": "rimraf ./lib && tsc -p . --outDir ./lib --module commonjs",
